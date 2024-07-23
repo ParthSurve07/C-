@@ -20,6 +20,9 @@ int main () {
         cout<<"Enter your choice: ";
         cin>>choice;
 
+        cin.clear();
+        fflush(stdin);
+
         switch (choice) {
             case 1:
                 showBalance(balance);
